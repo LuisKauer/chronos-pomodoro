@@ -8,7 +8,7 @@ export function Logo() {
     return (
         <h1 className={styles.logo}> 
           <a className={styles.logoLink} href="#"><TimerIcon size={64}/>
-          <span>Chronos</span>
+          <span className={styles.spanLogo}>Chronos</span>
           </a>
         </h1>
     )

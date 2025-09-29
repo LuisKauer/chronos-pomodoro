@@ -15,5 +15,18 @@ body {
     color: var(--text-default);
 }
 
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.formRow {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
 

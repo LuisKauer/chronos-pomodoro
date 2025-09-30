@@ -32,3 +32,37 @@
   --disabled: var(--grau-400);
   
 }
+
+:root[data-theme='light'] {
+  --grau-100: #000000;
+  --grau-200: #0D0D0D;
+  --grau-300: #1A1A1A;
+  --grau-400: #333333;
+  --grau-500: #4D4D4D;
+  --grau-600: #666666;
+  --grau-700: #999999;
+  --grau-800: #b3b3b3;
+  --grau-900: #edeaea;   
+
+  --primary-color-light: #81C784;
+  --primary-color: #388E3C;
+  --primary-color-dark: #1B5E20;
+
+  --sucess-color: #4CAF50;
+  --warning-color: #FFB74D;
+  --error-color: #c21111;
+  --info-color: #64B5F6;
+
+  --text-over-primary: #000000;
+  --text-over-primary-dark: #000000;
+  --text-over-primary-light: #f0f0f0;
+  --text-over-sucess: #f0f0f0;
+  --text-over-warning: #000000;
+  --text-over-error: #ffffff; 
+  --text-over-info: #000000;
+
+  --text-default: var(--grau-100);
+  --text-muted: var(--grau-700);
+  --text-disabled: var(--grau-600);
+  --disabled: var(--grau-400);
+}

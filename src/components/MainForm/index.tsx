@@ -12,7 +12,7 @@ export function MainForm() {
               <DefaultInput id='meuInput' type='text' placeholder='Digite algo...' />
             </div>
              <div className={styles.formRow}>
-              <p>Lorem ipsum dolor sit </p>
+              <p>Proximo intervalo é em 25 minutos</p>
              </div>
              <div className={styles.formRow}>
               <Cycles />

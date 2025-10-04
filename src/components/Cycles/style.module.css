@@ -20,14 +20,14 @@ gap: 1.6rem;
 }
 
 .workTime {
-  background: var(--sucess-color);
-}
-
-.breakTimeShort {
   background: var(--warning-color);
 }
 
-.breakTimeLong {
+.shortBreakTime {
+  background: var(--sucess-color);
+}
+
+.longBreakTime {
   background: var(--info-color);
 }
 

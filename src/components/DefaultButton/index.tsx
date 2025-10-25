@@ -7,9 +7,9 @@ type DefaultButtonProps = {
 } & React.ComponentProps<"button">
 
 
-export function DefaultButton({ icon, color = "green",...props }: DefaultButtonProps) {
+export function DefaultButton({ icon, collor = "green",...props }: DefaultButtonProps) {
   return (
-      <button className={`${styles.button} ${styles[color]}`} {...props}>
+      <button className={`${styles.button} ${styles[collor]}`} {...props}>
         {icon}
       </button>
   
